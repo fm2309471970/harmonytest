@@ -255,8 +255,8 @@ def generate_llm_docs(doc_root: str):
 
 def main():
     generate_arkts_docs("./testcases_arkts")
-    generate_ts_docs("./testcases_ts")
-    generate_llm_docs("./llm")
+    # generate_ts_docs("./testcases_ts")
+    # generate_llm_docs("./llm")
 
 
 if __name__ == "__main__":
