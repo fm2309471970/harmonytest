@@ -15,7 +15,7 @@
 - [@ohos.util.Vector]
 
 
-[@ohos.util.ArrayList]: arkts\线性容器\@ohos.util.ArrayList.md
+[@ohos.util.ArrayList]: arkts/线性容器/@ohos.util.ArrayList.md
 [@ohos.util.Deque]: arkts\线性容器\@ohos.util.Deque.md
 [@ohos.util.LinkedList]: arkts\线性容器\@ohos.util.LinkedList.md
 [@ohos.util.List]: arkts\线性容器\@ohos.util.List.md
