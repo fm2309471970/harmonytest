@@ -2,7 +2,7 @@
 
 ### @ohos.util.Queue.add
 
-:book: [官方API文档](https://developer.harmonyos.com/cn/docs/documentation/doc-references-V3/js-apis-queue-0000001427585156-V3#ZH-CN_TOPIC_0000001523488842__add)
+:book: [官方API文档](https://developer.huawei.com/consumer/cn/doc/harmonyos-references-V2/js-apis-queue-0000001427745120-V2#ZH-CN_TOPIC_0000001573929045__add)
 
 :keyboard: 测试用例 1: 测试Queue容器add接口
 
@@ -33,13 +33,13 @@ function test_add(loopCount: number): string {
 
 | 测试用例   | 测试平台           | 运行时间        |
 |:-------|:---------------|:------------|
-| 测试用例 1 | [Huawei Phone] | 0.14 ms |
+| 测试用例 1 | [Huawei Phone] | 0.00012 ms |
 
 ---
 
 ### @ohos.util.Queue.pop
 
-:book: [官方API文档](https://developer.harmonyos.com/cn/docs/documentation/doc-references-V3/js-apis-queue-0000001427585156-V3#ZH-CN_TOPIC_0000001523488842__pop)
+:book: [官方API文档](https://developer.huawei.com/consumer/cn/doc/harmonyos-references-V2/js-apis-queue-0000001427745120-V2#ZH-CN_TOPIC_0000001573929045__pop)
 
 :keyboard: 测试用例 1: 测试Queue容器pop接口
 
@@ -73,13 +73,13 @@ function test_pop(loopCount: number): string {
 
 | 测试用例   | 测试平台           | 运行时间        |
 |:-------|:---------------|:------------|
-| 测试用例 1 | [Huawei Phone] | 0.15 ms |
+| 测试用例 1 | [Huawei Phone] | 0.00012 ms |
 
 ---
 
 ### @ohos.util.Queue.getFirst
 
-:book: [官方API文档](https://developer.harmonyos.com/cn/docs/documentation/doc-references-V3/js-apis-queue-0000001427585156-V3#ZH-CN_TOPIC_0000001523488842__getFirst)
+:book: [官方API文档](https://developer.huawei.com/consumer/cn/doc/harmonyos-references-V2/js-apis-queue-0000001427745120-V2#ZH-CN_TOPIC_0000001573929045__getfirst)
 
 :keyboard: 测试用例 1: 测试Queue容器getFirst接口
 
@@ -113,10 +113,9 @@ function test_getFirst(loopCount: number): string {
 
 | 测试用例   | 测试平台           | 运行时间        |
 |:-------|:---------------|:------------|
-| 测试用例 1 | [Huawei Phone] | 0.12 ms |
+| 测试用例 1 | [Huawei Phone] | 0.00012 ms |
 
-[Huawei Phone]: ../../device/#huawei-phone
+[Huawei Phone]: ../../../device#huawei-phone
 
 ---
 
-这个文档以代码段1的结构呈现了您提供的代码段2的相关信息。如果您有更多的代码段2格式的内容，随时可以提供给我，我将帮助您生成相应的代码段1文档。

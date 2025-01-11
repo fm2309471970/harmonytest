@@ -1,7 +1,7 @@
 # @ohos.util.LightWeightMap
 ### @ohos.util.LightWeightMap.get
 
-:book: [官方API文档](https://developer.harmonyos.com/cn/docs/documentation/doc-references-V3/js-apis-lightweightmap-0000001427585156-V3#get)
+:book: [官方API文档](https://developer.huawei.com/consumer/cn/doc/harmonyos-references-V2/js-apis-lightweightmap-0000001478061977-V2#ZH-CN_TOPIC_0000001574088565__get)
 
 :keyboard: 测试用例 1: 测试LightWeightMap容器get接口
 
@@ -35,13 +35,13 @@ function test_get(loopCount: number): string {
 
 | 测试用例   | 测试平台           | 运行时间        |
 |:-------|:---------------|:------------|
-| 测试用例 1 | [Huawei Phone] | 0.12 ms |
+| 测试用例 1 | [Huawei Phone] | 0.00014 ms |
 
 ---
 
 ### @ohos.util.LightWeightMap.set
 
-:book: [官方API文档](https://developer.harmonyos.com/cn/docs/documentation/doc-references-V3/js-apis-lightweightmap-0000001427585156-V3#set)
+:book: [官方API文档](https://developer.huawei.com/consumer/cn/doc/harmonyos-references-V2/js-apis-lightweightmap-0000001478061977-V2#ZH-CN_TOPIC_0000001574088565__set)
 
 :keyboard: 测试用例 2: 测试LightWeightMap容器set接口
 
@@ -72,13 +72,13 @@ function test_set(loopCount: number): string {
 
 | 测试用例   | 测试平台           | 运行时间        |
 |:-------|:---------------|:------------|
-| 测试用例 2 | [Huawei Phone] | 0.18 ms |
+| 测试用例 2 | [Huawei Phone] | 0.00074 ms |
 
 ---
 
-### @ohos.util.LightWeightMap.hasKey (最优情况)
+### @ohos.util.LightWeightMap.hasKey 
 
-:book: [官方API文档](https://developer.harmonyos.com/cn/docs/documentation/doc-references-V3/js-apis-lightweightmap-0000001427585156-V3#hasKey)
+:book: [官方API文档](https://developer.huawei.com/consumer/cn/doc/harmonyos-references-V2/js-apis-lightweightmap-0000001478061977-V2#ZH-CN_TOPIC_0000001574088565__haskey)
 
 :keyboard: 测试用例 3: 测试在最优情况下（查找存在的第一个键）LightWeightMap容器的hasKey接口，LightWeightMap长度为50000
 
@@ -112,13 +112,11 @@ function test_hasKeyBest(loopCount: number): string {
 
 | 测试用例   | 测试平台           | 运行时间        |
 |:-------|:---------------|:------------|
-| 测试用例 3 | [Huawei Phone] | 0.09 ms |
+| 测试用例 3 | [Huawei Phone] | 0.0001 ms |
 
 ---
 
-### @ohos.util.LightWeightMap.hasKey (最坏情况)
 
-:book: [官方API文档](https://developer.harmonyos.com/cn/docs/documentation/doc-references-V3/js-apis-lightweightmap-0000001427585156-V3#hasKey)
 
 :keyboard: 测试用例 4: 测试在最坏情况下（查找不存在的键）LightWeightMap容器的hasKey接口，LightWeightMap长度为50000
 
@@ -152,13 +150,13 @@ function test_hasKeyWorst(loopCount: number): string {
 
 | 测试用例   | 测试平台           | 运行时间        |
 |:-------|:---------------|:------------|
-| 测试用例 4 | [Huawei Phone] | 0.22 ms |
+| 测试用例 4 | [Huawei Phone] | 0.00012 ms |
 
 ---
 
-### @ohos.util.LightWeightMap.hasValue (最优情况)
+### @ohos.util.LightWeightMap.hasValue 
 
-:book: [官方API文档](https://developer.harmonyos.com/cn/docs/documentation/doc-references-V3/js-apis-lightweightmap-0000001427585156-V3#hasValue)
+:book: [官方API文档](https://developer.huawei.com/consumer/cn/doc/harmonyos-references-V2/js-apis-lightweightmap-0000001478061977-V2#ZH-CN_TOPIC_0000001574088565__hasvalue)
 
 :keyboard: 测试用例 5: 测试在最优情况下（查找存在的第一个值）LightWeightMap容器的hasValue接口，LightWeightMap长度为50000
 
@@ -192,13 +190,11 @@ function test_hasValueBest(loopCount: number): string {
 
 | 测试用例   | 测试平台           | 运行时间        |
 |:-------|:---------------|:------------|
-| 测试用例 5 | [Huawei Phone] | 0.11 ms |
+| 测试用例 5 | [Huawei Phone] | 0.00016 ms |
 
 ---
 
-### @ohos.util.LightWeightMap.hasValue (最坏情况)
 
-:book: [官方API文档](https://developer.harmonyos.com/cn/docs/documentation/doc-references-V3/js-apis-lightweightmap-0000001427585156-V3#hasValue)
 
 :keyboard: 测试用例 6: 测试在最坏情况下（查找不存在的值）LightWeightMap容器的hasValue接口，LightWeightMap长度为50000
 
@@ -234,9 +230,9 @@ function test_hasValueWorst(loopCount: number): string {
 
 | 测试用例   | 测试平台           | 运行时间        |
 |:-------|:---------------|:------------|
-| 测试用例 6 | [Huawei Phone] | 0.20 ms |
+| 测试用例 6 | [Huawei Phone] | 0.01364 ms |
 
 ---
 
-[Huawei Phone]: ../../device/#huawei-phone
+[Huawei Phone]: ../../../device#huawei-phone
 ```

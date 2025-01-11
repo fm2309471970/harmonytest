@@ -1,7 +1,7 @@
 # @ohos.util.List
 ### @ohos.util.List.add
 
-:book: [官方API文档](https://developer.harmonyos.com/cn/docs/documentation/doc-references-V3/js-apis-list-0000001427585156-V3#add)
+:book: [官方API文档](https://developer.huawei.com/consumer/cn/doc/harmonyos-references-V2/js-apis-arraylist-0000001427585156-V2#ZH-CN_TOPIC_0000001523488842__add)
 
 :keyboard: 测试用例 1: 测试List容器add接口
 
@@ -38,7 +38,7 @@ function test_add(loopCount: number) {
 
 ### @ohos.util.List.insert
 
-:book: [官方API文档](https://developer.harmonyos.com/cn/docs/documentation/doc-references-V3/js-apis-list-0000001427585156-V3#insert)
+:book: [官方API文档](https://developer.huawei.com/consumer/cn/doc/harmonyos-references-V2/js-apis-arraylist-0000001427585156-V2#ZH-CN_TOPIC_0000001523488842__insert)
 
 :keyboard: 测试用例 2: 测试List容器insert接口
 
@@ -75,7 +75,7 @@ function test_insert(loopCount: number) {
 
 ### @ohos.util.List.has
 
-:book: [官方API文档](https://developer.harmonyos.com/cn/docs/documentation/doc-references-V3/js-apis-list-0000001427585156-V3#has)
+:book: [官方API文档](https://developer.huawei.com/consumer/cn/doc/harmonyos-references-V2/js-apis-arraylist-0000001427585156-V2#ZH-CN_TOPIC_0000001523488842__has)
 
 :keyboard: 测试用例 3: 测试在最坏情况下（查找元素不存在的情况）List容器的has接口，List长度为100000
 
@@ -153,7 +153,7 @@ function test_has2(loopCount: number) {
 
 ### @ohos.util.List.remove
 
-:book: [官方API文档](https://developer.harmonyos.com/cn/docs/documentation/doc-references-V3/js-apis-list-0000001427585156-V3#remove)
+:book: [官方API文档](https://developer.huawei.com/consumer/cn/doc/harmonyos-references-V2/js-apis-arraylist-0000001427585156-V2#ZH-CN_TOPIC_0000001523488842__remove)
 
 :keyboard: 测试用例 5: 测试在最坏情况下（查找元素不存在的情况）List容器的remove接口，List长度为50000
 
@@ -231,9 +231,7 @@ function test_remove2(loopCount: number) {
 
 ### @ohos.util.List.sort
 
-:book: [官方API文档](https://developer.harmonyos.com/cn/docs/documentation/doc-references-V3/js-apis-list-0000001427585156-V3#
-
-sort)
+:book: [官方API文档](https://developer.huawei.com/consumer/cn/doc/harmonyos-references-V2/js-apis-arraylist-0000001427585156-V2#ZH-CN_TOPIC_0000001523488842__sort)
 
 :keyboard: 测试用例 7: 测试List容器sort接口
 
@@ -269,4 +267,4 @@ function test_sort(loopCount: number) {
 
 ---
 
-[Huawei Phone]: ../../device/#huawei-phone
+[Huawei Phone]: ../../../device#huawei-phone

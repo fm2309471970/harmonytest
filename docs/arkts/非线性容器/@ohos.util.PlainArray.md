@@ -1,10 +1,7 @@
 # @ohos.util.PlainArray
-以下是针对 `PlainArray` 接口的性能测试文档，包含每个测试用例的实现代码和执行时间分析。你可以根据需要调整测试参数或细节。
-
-```markdown
 ### @ohos.util.PlainArray.add
 
-:book: [官方API文档](https://developer.harmonyos.com/cn/docs/documentation/doc-references-V3/js-apis-plainarray-0000001427585156-V3#add)
+:book: [官方API文档](https://developer.huawei.com/consumer/cn/doc/harmonyos-references-V2/js-apis-plainarray-0000001427585160-V2#ZH-CN_TOPIC_0000001523488470__add)
 
 :keyboard: 测试用例 1: 测试PlainArray容器add接口
 
@@ -35,13 +32,13 @@ function test_add(loopCount: number): string {
 
 | 测试用例   | 测试平台           | 运行时间        |
 |:-------|:---------------|:------------|
-| 测试用例 1 | [Huawei Phone] | 0.10 ms |
+| 测试用例 1 | [Huawei Phone] | 0.00014 ms |
 
 ---
 
 ### @ohos.util.PlainArray.get
 
-:book: [官方API文档](https://developer.harmonyos.com/cn/docs/documentation/doc-references-V3/js-apis-plainarray-0000001427585156-V3#get)
+:book: [官方API文档](https://developer.huawei.com/consumer/cn/doc/harmonyos-references-V2/js-apis-plainarray-0000001427585160-V2#ZH-CN_TOPIC_0000001523488470__get)
 
 :keyboard: 测试用例 5: 测试PlainArray容器get接口
 
@@ -75,13 +72,13 @@ function test_get(loopCount: number): string {
 
 | 测试用例   | 测试平台           | 运行时间        |
 |:-------|:---------------|:------------|
-| 测试用例 5 | [Huawei Phone] | 0.12 ms |
+| 测试用例 5 | [Huawei Phone] | 0.00014 ms |
 
 ---
 
-### @ohos.util.PlainArray.has (最优情况)
+### @ohos.util.PlainArray.has
 
-:book: [官方API文档](https://developer.harmonyos.com/cn/docs/documentation/doc-references-V3/js-apis-plainarray-0000001427585156-V3#has)
+:book: [官方API文档](https://developer.huawei.com/consumer/cn/doc/harmonyos-references-V2/js-apis-plainarray-0000001427585160-V2#ZH-CN_TOPIC_0000001523488470__has)
 
 :keyboard: 测试用例 3: 测试在最优情况下（查找存在的第一个元素）PlainArray容器的has接口，PlainArray长度为50000
 
@@ -115,13 +112,11 @@ function test_hasBest(loopCount: number): string {
 
 | 测试用例   | 测试平台           | 运行时间        |
 |:-------|:---------------|:------------|
-| 测试用例 3 | [Huawei Phone] | 0.05 ms |
+| 测试用例 3 | [Huawei Phone] | 0.0001 ms |
 
 ---
 
-### @ohos.util.PlainArray.has (最坏情况)
 
-:book: [官方API文档](https://developer.harmonyos.com/cn/docs/documentation/doc-references-V3/js-apis-plainarray-0000001427585156-V3#has)
 
 :keyboard: 测试用例 4: 测试在最坏情况下（查找不存在的元素）PlainArray容器的has接口，PlainArray长度为50000
 
@@ -155,13 +150,13 @@ function test_hasWorst(loopCount: number): string {
 
 | 测试用例   | 测试平台           | 运行时间        |
 |:-------|:---------------|:------------|
-| 测试用例 4 | [Huawei Phone] | 0.20 ms |
+| 测试用例 4 | [Huawei Phone] | 0.0001 ms |
 
 ---
 
 ### @ohos.util.PlainArray.getIndexOfValue
 
-:book: [官方API文档](https://developer.harmonyos.com/cn/docs/documentation/doc-references-V3/js-apis-plainarray-0000001427585156-V3#getindexofvalue)
+:book: [官方API文档](https://developer.huawei.com/consumer/cn/doc/harmonyos-references-V2/js-apis-plainarray-0000001427585160-V2#ZH-CN_TOPIC_0000001523488470__getindexofvalue)
 
 :keyboard: 测试用例 6: 测试PlainArray容器getIndexOfValue接口
 
@@ -195,13 +190,8 @@ function test_getIndexOfValue(loopCount: number): string {
 
 | 测试用例   | 测试平台           | 运行时间        |
 |:-------|:---------------|:------------|
-| 测试用例 6 | [Huawei Phone] | 0.15 ms |
+| 测试用例 6 | [Huawei Phone] | 0.00846 ms |
 
 ---
 
-[Huawei Phone]: ../../device/#huawei-phone
-```
-
-在这些测试用例中，我们通过 `PlainArray` 容器对常见操作（如 `add`、`get`、`has`、`getIndexOfValue`）的性能进行了测试，并根据不同情况（最优/最坏）计算了平均执行时间。你可以根据实际环境和需求对这些测试用例进行适当的调整。
-
-如果你有任何问题或需要进一步修改，请告诉我！
+[Huawei Phone]: ../../../device#huawei-phone

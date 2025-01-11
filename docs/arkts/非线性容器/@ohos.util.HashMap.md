@@ -1,7 +1,7 @@
 # @ohos.util.HashMap
 ### @ohos.util.HashMap.get
 
-:book: [官方API文档](https://developer.harmonyos.com/cn/docs/documentation/doc-references-V3/js-apis-hashmap-0000001427585156-V3#get)
+:book: [官方API文档](https://developer.huawei.com/consumer/cn/doc/harmonyos-references-V2/js-apis-hashmap-0000001478181697-V2#ZH-CN_TOPIC_0000001574248653__get)
 
 :keyboard: 测试用例 1: 测试HashMap容器get接口
 
@@ -35,13 +35,13 @@ function test_get(loopCount: number): string {
 
 | 测试用例   | 测试平台           | 运行时间        |
 |:-------|:---------------|:------------|
-| 测试用例 1 | [Huawei Phone] | 0.10 ms |
+| 测试用例 1 | [Huawei Phone] | 0.00012 ms |
 
 ---
 
 ### @ohos.util.HashMap.set
 
-:book: [官方API文档](https://developer.harmonyos.com/cn/docs/documentation/doc-references-V3/js-apis-hashmap-0000001427585156-V3#set)
+:book: [官方API文档](https://developer.huawei.com/consumer/cn/doc/harmonyos-references-V2/js-apis-hashmap-0000001478181697-V2#ZH-CN_TOPIC_0000001574248653__set)
 
 :keyboard: 测试用例 2: 测试HashMap容器set接口
 
@@ -72,13 +72,13 @@ function test_set(loopCount: number): string {
 
 | 测试用例   | 测试平台           | 运行时间        |
 |:-------|:---------------|:------------|
-| 测试用例 2 | [Huawei Phone] | 0.08 ms |
+| 测试用例 2 | [Huawei Phone] | 0.00066 ms |
 
 ---
 
 ### @ohos.util.HashMap.hasKey
 
-:book: [官方API文档](https://developer.harmonyos.com/cn/docs/documentation/doc-references-V3/js-apis-hashmap-0000001427585156-V3#hasKey)
+:book: [官方API文档](https://developer.huawei.com/consumer/cn/doc/harmonyos-references-V2/js-apis-hashmap-0000001478181697-V2#ZH-CN_TOPIC_0000001574248653__haskey)
 
 :keyboard: 测试用例 3: 测试在最优情况下（查找存在的第一个键）HashMap容器的hasKey接口，HashMap长度为50000
 
@@ -112,13 +112,11 @@ function test_hasKeyBest(loopCount: number): string {
 
 | 测试用例   | 测试平台           | 运行时间        |
 |:-------|:---------------|:------------|
-| 测试用例 3 | [Huawei Phone] | 0.03 ms |
+| 测试用例 3 | [Huawei Phone] | 0.0001 ms |
 
 ---
 
-### @ohos.util.HashMap.hasKey
 
-:book: [官方API文档](https://developer.harmonyos.com/cn/docs/documentation/doc-references-V3/js-apis-hashmap-0000001427585156-V3#hasKey)
 
 :keyboard: 测试用例 4: 测试在最坏情况下（查找不存在的键）HashMap容器的hasKey接口，HashMap长度为50000
 
@@ -152,13 +150,13 @@ function test_hasKeyWorst(loopCount: number): string {
 
 | 测试用例   | 测试平台           | 运行时间        |
 |:-------|:---------------|:------------|
-| 测试用例 4 | [Huawei Phone] | 0.06 ms |
+| 测试用例 4 | [Huawei Phone] | 0.00008 ms |
 
 ---
 
 ### @ohos.util.HashMap.hasValue
 
-:book: [官方API文档](https://developer.harmonyos.com/cn/docs/documentation/doc-references-V3/js-apis-hashmap-0000001427585156-V3#hasValue)
+:book: [官方API文档](https://developer.huawei.com/consumer/cn/doc/harmonyos-references-V2/js-apis-hashmap-0000001478181697-V2#ZH-CN_TOPIC_0000001574248653__hasvalue)
 
 :keyboard: 测试用例 5: 测试在最优情况下（查找存在的第一个值）HashMap容器的hasValue接口，HashMap长度为50000
 
@@ -192,13 +190,11 @@ function test_hasValueBest(loopCount: number): string {
 
 | 测试用例   | 测试平台           | 运行时间        |
 |:-------|:---------------|:------------|
-| 测试用例 5 | [Huawei Phone] | 0.07 ms |
+| 测试用例 5 | [Huawei Phone] | 0.00012 ms |
 
 ---
 
-### @ohos.util.HashMap.hasValue
 
-:book: [官方API文档](https://developer.harmonyos.com/cn/docs/documentation/doc-references-V3/js-apis-hashmap-0000001427585156-V3#hasValue)
 
 :keyboard: 测试用例 6: 测试在最坏情况下（查找不存在的值）HashMap容器的hasValue接口，HashMap长度为50000
 
@@ -234,9 +230,9 @@ Time() - startTime.getTime();
 
 | 测试用例   | 测试平台           | 运行时间        |
 |:-------|:---------------|:------------|
-| 测试用例 6 | [Huawei Phone] | 0.12 ms |
+| 测试用例 6 | [Huawei Phone] | 0.01876 ms |
 
 ---
 
-[Huawei Phone]: ../../device/#huawei-phone
+[Huawei Phone]: ../../../device#huawei-phone
 ```

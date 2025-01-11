@@ -234,4 +234,4 @@ function test_get(loopCount: number): string {
 
 ---
 
-[Huawei Phone]: ../../device#huawei-phone
+[Huawei Phone]: ../../../device#huawei-phone

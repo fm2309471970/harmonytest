@@ -2,7 +2,7 @@
 
 ### @ohos.util.Stack.push
 
-:book: [官方API文档](https://developer.harmonyos.com/cn/docs/documentation/doc-references-V3/js-apis-stack-0000001427585156-V3#ZH-CN_TOPIC_0000001523488842__push)
+:book: [官方API文档](https://developer.huawei.com/consumer/cn/doc/harmonyos-references-V2/js-apis-stack-0000001478181701-V2#ZH-CN_TOPIC_0000001574128397__push)
 
 :keyboard: 测试用例 1: 测试Stack容器push接口
 
@@ -33,13 +33,13 @@ function test_push(loopCount: number): string {
 
 | 测试用例   | 测试平台           | 运行时间        |
 |:-------|:---------------|:------------|
-| 测试用例 1 | [Huawei Phone] | 0.13 ms |
+| 测试用例 1 | [Huawei Phone] | 0.00012 ms |
 
 ---
 
 ### @ohos.util.Stack.peek
 
-:book: [官方API文档](https://developer.harmonyos.com/cn/docs/documentation/doc-references-V3/js-apis-stack-0000001427585156-V3#ZH-CN_TOPIC_0000001523488842__peek)
+:book: [官方API文档](https://developer.huawei.com/consumer/cn/doc/harmonyos-references-V2/js-apis-stack-0000001478181701-V2#ZH-CN_TOPIC_0000001574128397__peek)
 
 :keyboard: 测试用例 1: 测试Stack容器peek接口
 
@@ -73,13 +73,13 @@ function test_peek(loopCount: number): string {
 
 | 测试用例   | 测试平台           | 运行时间        |
 |:-------|:---------------|:------------|
-| 测试用例 1 | [Huawei Phone] | 0.21 ms |
+| 测试用例 1 | [Huawei Phone] | 0.00012 ms |
 
 ---
 
 ### @ohos.util.Stack.pop
 
-:book: [官方API文档](https://developer.harmonyos.com/cn/docs/documentation/doc-references-V3/js-apis-stack-0000001427585156-V3#ZH-CN_TOPIC_0000001523488842__pop)
+:book: [官方API文档](https://developer.huawei.com/consumer/cn/doc/harmonyos-references-V2/js-apis-stack-0000001478181701-V2#ZH-CN_TOPIC_0000001574128397__pop)
 
 :keyboard: 测试用例 1: 测试Stack容器pop接口
 
@@ -113,15 +113,15 @@ function test_pop(loopCount: number): string {
 
 | 测试用例   | 测试平台           | 运行时间        |
 |:-------|:---------------|:------------|
-| 测试用例 1 | [Huawei Phone] | 0.22 ms |
+| 测试用例 1 | [Huawei Phone] | 0.0001 ms |
 
 ---
 
 ### @ohos.util.Stack.locate
-
+:book: [官方API文档](https://developer.huawei.com/consumer/cn/doc/harmonyos-references-V2/js-apis-stack-0000001478181701-V2#ZH-CN_TOPIC_0000001574128397__locate)
 #### 最坏情况
 
-:book: [官方API文档](https://developer.harmonyos.com/cn/docs/documentation/doc-references-V3/js-apis-stack-0000001427585156-V3#ZH-CN_TOPIC_0000001523488842__locate)
+
 
 :keyboard: 测试用例 1: 测试Stack容器locate接口（最坏情况，查找元素不存在）
 
@@ -155,13 +155,12 @@ function test_locateWorst(loopCount: number): string {
 
 | 测试用例   | 测试平台           | 运行时间        |
 |:-------|:---------------|:------------|
-| 测试用例 1 | [Huawei Phone] | 0.28 ms |
+| 测试用例 1 | [Huawei Phone] | 0.0163 ms |
 
 ---
 
 #### 最优情况
 
-:book: [官方API文档](https://developer.harmonyos.com/cn/docs/documentation/doc-references-V3/js-apis-stack-0000001427585156-V3#ZH-CN_TOPIC_0000001523488842__locate)
 
 :keyboard: 测试用例 2: 测试Stack容器locate接口（最优情况，查找元素为第一个）
 
@@ -195,10 +194,7 @@ function test_locateBest(loopCount: number): string {
 
 | 测试用例   | 测试平台           | 运行时间        |
 |:-------|:---------------|:------------|
-| 测试用例 1 | [Huawei Phone] | 0.20 ms |
+| 测试用例 1 | [Huawei Phone] | 0.0001 ms |
 
-[Huawei Phone]: ../../device/#huawei-phone
+[Huawei Phone]: ../../../device#huawei-phone
 
----
-
-这个文档呈现了您提供的代码段2的相关信息。如果您有更多的代码段2格式的内容，随时可以提供给我，我将帮助您生成相应的代码段1文档。

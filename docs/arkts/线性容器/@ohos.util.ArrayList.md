@@ -235,4 +235,4 @@ function test_sort(loopCount: number): string {
 |:-------|:---------------|:------------|
 | 测试用例 7 | [Huawei Phone] | 0.01502 ms |
 
-[Huawei Phone]: ../../device
+[Huawei Phone]: ../../../device/#huawei-phone

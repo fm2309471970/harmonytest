@@ -2,7 +2,7 @@
 
 ### @ohos.util.TreeMap.set
 
-:book: [官方API文档](https://developer.harmonyos.com/cn/docs/documentation/doc-references-V3/js-apis-treemap-0000001427585156-V3#ZH-CN_TOPIC_0000001523488842__set)
+:book: [官方API文档](https://developer.huawei.com/consumer/cn/doc/harmonyos-references-V2/js-apis-treemap-0000001478341441-V2#ZH-CN_TOPIC_0000001523488482__set)
 
 :keyboard: 测试用例 1: 测试TreeMap容器set接口
 
@@ -33,13 +33,13 @@ function test_set(loopCount: number): string {
 
 | 测试用例   | 测试平台           | 运行时间        |
 |:-------|:---------------|:------------|
-| 测试用例 1 | [Huawei Phone] | 0.15 ms |
+| 测试用例 1 | [Huawei Phone] | 0.00112 ms |
 
 ---
 
 ### @ohos.util.TreeMap.get
 
-:book: [官方API文档](https://developer.harmonyos.com/cn/docs/documentation/doc-references-V3/js-apis-treemap-0000001427585156-V3#ZH-CN_TOPIC_0000001523488842__get)
+:book: [官方API文档](https://developer.huawei.com/consumer/cn/doc/harmonyos-references-V2/js-apis-treemap-0000001478341441-V2#ZH-CN_TOPIC_0000001523488482__get)
 
 :keyboard: 测试用例 1: 测试TreeMap容器get接口
 
@@ -73,13 +73,13 @@ function test_get(loopCount: number): string {
 
 | 测试用例   | 测试平台           | 运行时间        |
 |:-------|:---------------|:------------|
-| 测试用例 1 | [Huawei Phone] | 0.18 ms |
+| 测试用例 1 | [Huawei Phone] | 0.0005 ms |
 
 ---
 
 ### @ohos.util.TreeMap.remove
 
-:book: [官方API文档](https://developer.harmonyos.com/cn/docs/documentation/doc-references-V3/js-apis-treemap-0000001427585156-V3#ZH-CN_TOPIC_0000001523488842__remove)
+:book: [官方API文档](https://developer.huawei.com/consumer/cn/doc/harmonyos-references-V2/js-apis-treemap-0000001478341441-V2#ZH-CN_TOPIC_0000001523488482__remove)
 
 :keyboard: 测试用例 1: 测试TreeMap容器remove接口
 
@@ -113,15 +113,15 @@ function test_remove(loopCount: number): string {
 
 | 测试用例   | 测试平台           | 运行时间        |
 |:-------|:---------------|:------------|
-| 测试用例 1 | [Huawei Phone] | 0.23 ms |
+| 测试用例 1 | [Huawei Phone] | 0.00046 ms |
 
 ---
 
 ### @ohos.util.TreeMap.hasKey
-
+:book: [官方API文档](https://developer.huawei.com/consumer/cn/doc/harmonyos-references-V2/js-apis-treemap-0000001478341441-V2#ZH-CN_TOPIC_0000001523488482__haskey)
 #### 最优情况
 
-:book: [官方API文档](https://developer.harmonyos.com/cn/docs/documentation/doc-references-V3/js-apis-treemap-0000001427585156-V3#ZH-CN_TOPIC_0000001523488842__hasKey)
+
 
 :keyboard: 测试用例 1: 测试在最优情况下（查找存在的第一个元素）TreeMap容器的hasKey接口
 
@@ -155,13 +155,12 @@ function test_hasKeyBest(loopCount: number): string {
 
 | 测试用例   | 测试平台           | 运行时间        |
 |:-------|:---------------|:------------|
-| 测试用例 1 | [Huawei Phone] | 0.12 ms |
+| 测试用例 1 | [Huawei Phone] | 0.00028 ms |
 
 ---
 
 #### 最坏情况
 
-:book: [官方API文档](https://developer.harmonyos.com/cn/docs/documentation/doc-references-V3/js-apis-treemap-0000001427585156-V3#ZH-CN_TOPIC_0000001523488842__hasKey)
 
 :keyboard: 测试用例 2: 测试在最坏情况下（查找不存在的元素）TreeMap容器的hasKey接口
 
@@ -195,15 +194,15 @@ function test_hasKeyWorst(loopCount: number): string {
 
 | 测试用例   | 测试平台           | 运行时间        |
 |:-------|:---------------|:------------|
-| 测试用例 2 | [Huawei Phone] | 0.22 ms |
+| 测试用例 2 | [Huawei Phone] | 0.00038 ms |
 
 ---
 
 ### @ohos.util.TreeMap.hasValue
-
+:book: [官方API文档](https://developer.huawei.com/consumer/cn/doc/harmonyos-references-V2/js-apis-treemap-0000001478341441-V2#ZH-CN_TOPIC_0000001523488482__hasvalue)
 #### 最优情况
 
-:book: [官方API文档](https://developer.harmonyos.com/cn/docs/documentation/doc-references-V3/js-apis-treemap-0000001427585156-V3#ZH-CN_TOPIC_0000001523488842__hasValue)
+
 
 :keyboard: 测试用例 1: 测试在最优情况下（查找存在的第一个元素对应的值）TreeMap容器的hasValue接口
 
@@ -237,13 +236,12 @@ function test_hasValueBest(loopCount: number): string {
 
 | 测试用例   | 测试平台           | 运行时间        |
 |:-------|:---------------|:------------|
-| 测试用例 1 | [Huawei Phone] | 0.19 ms |
+| 测试用例 1 | [Huawei Phone] | 0.005 ms |
 
 ---
 
 #### 最坏情况
 
-:book: [官方API文档](https://developer.harmonyos.com/cn/docs/documentation/doc-references-V3/js-apis-treemap-0000001427585156-V3#ZH-CN_TOPIC_0000001523488842__hasValue)
 
 :keyboard: 测试用例 2: 测试在最坏情况下（查找不存在的值）TreeMap容器的hasValue接口
 
@@ -279,6 +277,6 @@ function test_hasValueWorst(loopCount: number): string {
 
 | 测试用例   | 测试平台           | 运行时间        |
 |:-------|:---------------|:------------|
-| 测试用例 2 | [Huawei Phone] | 0.25 ms |
-
+| 测试用例 2 | [Huawei Phone] | 0.02024 ms |
+[Huawei Phone]: ../../../device#huawei-phone
 ---

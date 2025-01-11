@@ -1,12 +1,8 @@
-根据您提供的代码段2，以下是生成的代码段1格式文档：
-
----
-
 # @ohos.util.TreeSet
 
 ### @ohos.util.TreeSet.add
 
-:book: [官方API文档](https://developer.harmonyos.com/cn/docs/documentation/doc-references-V3/js-apis-treeset-0000001427585156-V3#ZH-CN_TOPIC_0000001523488842__add)
+:book: [官方API文档](https://developer.huawei.com/consumer/cn/doc/harmonyos-references-V2/js-apis-treeset-0000001478061981-V2#ZH-CN_TOPIC_0000001574248293__add)
 
 :keyboard: 测试用例 1: 测试TreeSet容器add接口
 
@@ -37,13 +33,13 @@ function test_add(loopCount: number): string {
 
 | 测试用例   | 测试平台           | 运行时间        |
 |:-------|:---------------|:------------|
-| 测试用例 1 | [Huawei Phone] | 0.16 ms |
+| 测试用例 1 | [Huawei Phone] | 0.00034 ms |
 
 ---
 
 ### @ohos.util.TreeSet.remove
 
-:book: [官方API文档](https://developer.harmonyos.com/cn/docs/documentation/doc-references-V3/js-apis-treeset-0000001427585156-V3#ZH-CN_TOPIC_0000001523488842__remove)
+:book: [官方API文档](https://developer.huawei.com/consumer/cn/doc/harmonyos-references-V2/js-apis-treeset-0000001478061981-V2#ZH-CN_TOPIC_0000001574248293__remove)
 
 :keyboard: 测试用例 2: 测试TreeSet容器remove接口
 
@@ -77,15 +73,15 @@ function test_remove(loopCount: number): string {
 
 | 测试用例   | 测试平台           | 运行时间        |
 |:-------|:---------------|:------------|
-| 测试用例 2 | [Huawei Phone] | 0.22 ms |
+| 测试用例 2 | [Huawei Phone] | 0.00034 ms |
 
 ---
 
 ### @ohos.util.TreeSet.has
-
+:book: [官方API文档](https://developer.huawei.com/consumer/cn/doc/harmonyos-references-V2/js-apis-treeset-0000001478061981-V2#ZH-CN_TOPIC_0000001574248293__has)
 #### 最优情况
 
-:book: [官方API文档](https://developer.harmonyos.com/cn/docs/documentation/doc-references-V3/js-apis-treeset-0000001427585156-V3#ZH-CN_TOPIC_0000001523488842__has)
+
 
 :keyboard: 测试用例 1: 测试在最优情况下（查找存在的第一个元素）TreeSet容器的has接口
 
@@ -119,7 +115,7 @@ function test_hasBest(loopCount: number): string {
 
 | 测试用例   | 测试平台           | 运行时间        |
 |:-------|:---------------|:------------|
-| 测试用例 1 | [Huawei Phone] | 0.13 ms |
+| 测试用例 1 | [Huawei Phone] | 0.00016 ms |
 
 ---
 
@@ -159,6 +155,6 @@ function test_hasWorst(loopCount: number): string {
 
 | 测试用例   | 测试平台           | 运行时间        |
 |:-------|:---------------|:------------|
-| 测试用例 2 | [Huawei Phone] | 0.20 ms |
-
+| 测试用例 2 | [Huawei Phone] | 0.00026 ms |
+[Huawei Phone]: ../../../device#huawei-phone
 ---
