@@ -4,15 +4,20 @@
 
 - [@ohos.util.ArrayList]
 - [@ohos.util.Deque]
-- [@ohos.util.HashMap]
-- [@ohos.util.HashSet]
 - [@ohos.util.LinkedList]
 - [@ohos.util.List]
-- [@ohos.util.PlainArray]
+- [@ohos.util.Queue]
 - [@ohos.util.Stack]
+- [@ohos.util.Vector]
+
+- [@ohos.util.HashMap]
+- [@ohos.util.HashSet]
+- [@ohos.util.LightWeightMap]
+- [@ohos.util.LightWeightSet]
+- [@ohos.util.PlainArray]
 - [@ohos.util.TreeMap]
 - [@ohos.util.TreeSet]
-- [@ohos.util.Vector]
+
 
 
 [@ohos.util.ArrayList]: arkts/线性容器/@ohos.util.ArrayList.md
@@ -32,6 +37,33 @@
 [@ohos.util.TreeMap]: arkts/非线性容器/@ohos.util.TreeMap.md
 [@ohos.util.TreeSet]: arkts/非线性容器/@ohos.util.TreeSet.md
 
-## Android
+## Ktolin
+- [android.ArrayList]
+- [android.LinkedList]
+- [android.ArrayDeque]
+- [android.Array]
+
+- [android.HashSet]
+- [android.LinkedHashSet]
+- [android.TreeSet]
+- [android.HashMap]
+- [android.LinkedHashMap]
+- [android.TreeMap]
+- [android.PriorityQueue]
+
+
+[android.ArrayList]: kotlin/线性容器/android.ArrayList.md
+[android.LinkedList]: kotlin/线性容器/android.LinkedList.md
+[android.ArrayDeque]: kotlin/线性容器/android.ArrayDeque.md
+[android.Array]: kotlin/线性容器/android.Array.md
+
+[android.HashSet]: kotlin/非线性容器/android.HashSet.md
+[android.LinkedHashSet]: kotlin/非线性容器/android.LinkedHashSet.md
+[android.TreeSet]: kotlin/非线性容器/android.TreeSet.md
+[android.HashMap]: kotlin/非线性容器/android.HashMap.md
+[android.LinkedHashMap]: kotlin/非线性容器/android.LinkedHashMap.md
+[android.TreeMap]: kotlin/非线性容器/android.TreeMap.md
+[android.PriorityQueue]: kotlin/非线性容器/android.PriorityQueue.md
+
 
 ## ios
