@@ -2,10 +2,10 @@ site_name: ArkTS标准库性能测试
 theme:
   language: zh
   name: material
-  # logo: assets/arkts.png
-  logo: assets/yls.jpg
-  # favicon: assets/arkts.png
-  favicon: assets/yls.jpg
+  logo: assets/arkts.png
+  # logo: assets/yls.jpg
+  favicon: assets/arkts.png
+  # favicon: assets/yls.jpg
   features:
     - navigation.instant
     - navigation.instant.progress
