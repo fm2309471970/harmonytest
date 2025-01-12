@@ -4,7 +4,7 @@
 :keyboard: 测试用例 1: 测试ArrayDeque容器add接口
 
 ```kotlin
-private fun testLinkedList(): Long {
+private fun testArrayDeque(): Long {
         val deque = ArrayDeque<Int>()
         return measureTimeMillis {
             for (i in 1..500000) {
