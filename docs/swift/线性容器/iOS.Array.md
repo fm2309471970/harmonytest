@@ -198,4 +198,4 @@ func testArrayOperations() {
 | 测试用例 7 | [iPhone 16 pro] | 0.082307 ms |
 
 
-[iPhone 16 pro]: ../../../device/#iPhone 16 pro
+[iPhone 16 pro]: ../../../device#iPhone 16 pro

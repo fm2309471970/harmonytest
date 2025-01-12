@@ -1,20 +1,20 @@
-# iOS.Queue
-### iOS.Queue.enqueue
+# iOS.Set
+### iOS.Set.insert
 
-:keyboard: 测试用例 1: 测试Queue容器enqueue接口
+:keyboard: 测试用例 1: 测试Set容器insert接口
 
 ```swift
-func testQueueOperations() {
+func testSetOperations() {
         var results: [TestResults] = []
-        var Queue = Queue(0..<1000)
+        var Set = Set(0..<1000)
 
         var times: [Double] = []
         for _ in 0..<500 {
-            times.append(measureTime { queue.enqueue(1) })
+            times.append(measureTime { set.insert(1) })
         }
         let result = TestResults(
-            containerType: Queue,
-            operation: enqueue,
+            containerType: Set,
+            operation: insert,
             averageTime: times.reduce(0, +) / Double(times.count),
             fastestTime: times.min() ?? 0,
             slowestTime: times.max() ?? 0
@@ -26,25 +26,25 @@ func testQueueOperations() {
 
 | 测试用例   | 测试平台           | 运行时间        |
 |:-------|:---------------|:------------|
-| 测试用例 1 | [iPhone 16 pro] | 0.000150 ms |
+| 测试用例 1 | [iPhone 16 pro] | 0.000083 ms |
 
 
-### iOS.Queue.dequeue
+### iOS.Set.remove
 
-:keyboard: 测试用例 2: 测试Queue容器dequeue接口 
+:keyboard: 测试用例 2: 测试Set容器remove接口 
 
 ```swift
-func testQueueOperations() {
+func testSetOperations() {
         var results: [TestResults] = []
-        var Queue = Queue(0..<1000)
+        var Set = Set(0..<1000)
 
         var times: [Double] = []
         for _ in 0..<500 {
-            times.append(measureTime { _ = queue.dequeue() })
+            times.append(measureTime { set.remove(1) })
         }
         let result = TestResults(
-            containerType: Queue,
-            operation: dequeue,
+            containerType: Set,
+            operation: remove,
             averageTime: times.reduce(0, +) / Double(times.count),
             fastestTime: times.min() ?? 0,
             slowestTime: times.max() ?? 0
@@ -55,24 +55,24 @@ func testQueueOperations() {
 
 | 测试用例   | 测试平台           | 运行时间        |
 |:-------|:---------------|:------------|
-| 测试用例 2 | [iPhone 16 pro] | 0.000631 ms |
+| 测试用例 2 | [iPhone 16 pro] | 0.000072 ms |
 
-### iOS.Queue.peek
+### iOS.Set.contains
 
-:keyboard: 测试用例 3: 测试Queue容器peek接口 
+:keyboard: 测试用例 3: 测试Set容器contains接口 
 
 ```swift
-func testQueueOperations() {
+func testSetOperations() {
         var results: [TestResults] = []
-        var Queue = Queue(0..<1000)
+        var Set = Set(0..<1000)
 
         var times: [Double] = []
         for _ in 0..<500 {
-            times.append(measureTime { _ = queue.peek() })
+            times.append(measureTime { _ = set.contains(1) })
         }
         let result = TestResults(
-            containerType: Queue,
-            operation: peek,
+            containerType: Set,
+            operation: contains,
             averageTime: times.reduce(0, +) / Double(times.count),
             fastestTime: times.min() ?? 0,
             slowestTime: times.max() ?? 0
@@ -83,7 +83,7 @@ func testQueueOperations() {
 
 | 测试用例   | 测试平台           | 运行时间        |
 |:-------|:---------------|:------------|
-| 测试用例 3 | [iPhone 16 pro] | 0.000167 ms |
+| 测试用例 3 | [iPhone 16 pro] | 0.000063 ms |
 
 
-[iPhone 16 pro]: ../../../device/#iPhone 16 pro
+[iPhone 16 pro]: ../../../device#iPhone 16 pro

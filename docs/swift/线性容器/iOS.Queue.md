@@ -1,20 +1,20 @@
-# iOS.Tree
-### iOS.Tree.insert
+# iOS.Queue
+### iOS.Queue.enqueue
 
-:keyboard: 测试用例 1: 测试Tree容器insert接口
+:keyboard: 测试用例 1: 测试Queue容器enqueue接口
 
 ```swift
-func testTreeOperations() {
+func testQueueOperations() {
         var results: [TestResults] = []
-        var Tree = Tree(0..<1000)
+        var Queue = Queue(0..<1000)
 
         var times: [Double] = []
         for _ in 0..<500 {
-            times.append(measureTime { tree.insert(50) })
+            times.append(measureTime { queue.enqueue(1) })
         }
         let result = TestResults(
-            containerType: Tree,
-            operation: insert,
+            containerType: Queue,
+            operation: enqueue,
             averageTime: times.reduce(0, +) / Double(times.count),
             fastestTime: times.min() ?? 0,
             slowestTime: times.max() ?? 0
@@ -26,25 +26,25 @@ func testTreeOperations() {
 
 | 测试用例   | 测试平台           | 运行时间        |
 |:-------|:---------------|:------------|
-| 测试用例 1 | [iPhone 16 pro] | 0.020476 ms |
+| 测试用例 1 | [iPhone 16 pro] | 0.000150 ms |
 
 
-### iOS.Tree.search
+### iOS.Queue.dequeue
 
-:keyboard: 测试用例 2: 测试Tree容器search接口 
+:keyboard: 测试用例 2: 测试Queue容器dequeue接口 
 
 ```swift
-func testTreeOperations() {
+func testQueueOperations() {
         var results: [TestResults] = []
-        var Tree = Tree(0..<1000)
+        var Queue = Queue(0..<1000)
 
         var times: [Double] = []
         for _ in 0..<500 {
-            times.append(measureTime { _ = tree.search(50) })
+            times.append(measureTime { _ = queue.dequeue() })
         }
         let result = TestResults(
-            containerType: Tree,
-            operation: search,
+            containerType: Queue,
+            operation: dequeue,
             averageTime: times.reduce(0, +) / Double(times.count),
             fastestTime: times.min() ?? 0,
             slowestTime: times.max() ?? 0
@@ -55,24 +55,24 @@ func testTreeOperations() {
 
 | 测试用例   | 测试平台           | 运行时间        |
 |:-------|:---------------|:------------|
-| 测试用例 2 | [iPhone 16 pro] | 0.000091 ms |
+| 测试用例 2 | [iPhone 16 pro] | 0.000631 ms |
 
-### iOS.Tree.delete
+### iOS.Queue.peek
 
-:keyboard: 测试用例 3: 测试Tree容器delete接口 
+:keyboard: 测试用例 3: 测试Queue容器peek接口 
 
 ```swift
-func testTreeOperations() {
+func testQueueOperations() {
         var results: [TestResults] = []
-        var Tree = Tree(0..<1000)
+        var Queue = Queue(0..<1000)
 
         var times: [Double] = []
         for _ in 0..<500 {
-            times.append(measureTime { tree.delete(50) })
+            times.append(measureTime { _ = queue.peek() })
         }
         let result = TestResults(
-            containerType: Tree,
-            operation: delete,
+            containerType: Queue,
+            operation: peek,
             averageTime: times.reduce(0, +) / Double(times.count),
             fastestTime: times.min() ?? 0,
             slowestTime: times.max() ?? 0
@@ -83,7 +83,7 @@ func testTreeOperations() {
 
 | 测试用例   | 测试平台           | 运行时间        |
 |:-------|:---------------|:------------|
-| 测试用例 3 | [iPhone 16 pro] | 0.000265 ms |
+| 测试用例 3 | [iPhone 16 pro] | 0.000167 ms |
 
 
-[iPhone 16 pro]: ../../../device/#iPhone 16 pro
+[iPhone 16 pro]: ../../../device#iPhone 16 pro
