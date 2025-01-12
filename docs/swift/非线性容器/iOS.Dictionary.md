@@ -114,4 +114,4 @@ func testDictionaryOperations() {
 | 测试用例 4 | [iPhone 16 pro] | 0.000092 ms |
 
 
-[iPhone 16 pro]: ../../../device#iPhone 16 pro
+[iPhone 16 pro]: ../../../device/#iPhone-16-pro

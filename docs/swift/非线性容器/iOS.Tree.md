@@ -86,4 +86,4 @@ func testTreeOperations() {
 | 测试用例 3 | [iPhone 16 pro] | 0.000265 ms |
 
 
-[iPhone 16 pro]: ../../../device#iPhone 16 pro
+[iPhone 16 pro]: ../../../device/#iPhone-16-pro
